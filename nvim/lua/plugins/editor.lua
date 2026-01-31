@@ -14,6 +14,7 @@ return {
       { "<leader>fh", "<cmd>Telescope help_tags<cr>", desc = "Help tags" },
       { "<leader>fr", "<cmd>Telescope oldfiles<cr>", desc = "Recent files" },
       { "<leader>fd", "<cmd>Telescope diagnostics<cr>", desc = "Diagnostics" },
+      { "<leader>fk", "<cmd>Telescope keymaps<cr>", desc = "Keybindings" },
     },
     config = function()
       local telescope = require("telescope")
